@@ -1,0 +1,126 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0px 50px;
+
+}
+.headerlink{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: black;
+
+}
+.size{
+    font-size: 30px;
+    font-weight: 800;
+}
+.ikon img{
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.big{
+    display: flex;
+   
+    justify-content: center;
+    
+}
+.bigfoto{
+    margin: 6px;
+    width: 400px;
+    height: 400px;
+}
+.foto{
+    margin: 10px;
+    width: 80px;
+}
+.small-2{
+    margin: 7px 100px;
+    height: 500px;
+    width: 400px;
+}
+.small-2 h6{
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
+.yüzdelik{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.fiyat{
+    text-decoration: line-through;
+}
+.centered-div {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 200px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.button-container button {
+    background-color: white;
+    color: orange;
+    border: none;
+    padding: 0px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-container button:hover {
+    background-color: #95b300;
+}
+.icon {
+    font-size: 24px;
+}
+.buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 36px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: orange;
+    margin-left: 20px;
+}
+
+.buton i{
+    margin-right: 10px;
+}
+    
+.buttons {
+    display: flex;
+    
+  }
+    /*responsive kısma geçiş*/
+  @media screen and (max-width:600px) {
+ .headerlink{
+   margin: 0px 2px;
+ }
+ .header{
+    margin: 0px 10px;
+ }
+ .ikon{
+    margin: 0px 2px 0px 2px;
+ }
+.big{
+    flex-direction: column;
+    align-items: center;
+}
+  }
